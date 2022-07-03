@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --var-color: rgb(0, 238, 255);
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+.header {
+    width: 100%;
+
+    background-color: #8c92a0;
+    border-bottom: 10px solid black
+}
+
+.top-navbar {
+    width: 100%;
+    padding: 45px;
+
+    border-bottom: 1px solid #f3f3f4;
+}
+
+.nav-manu {
+
+    display: flex;
+
+    justify-items: center;
+    align-items: center !important;
+}
+
+.search {
+    flex-basis: 30%;
+    color: #8c92a0;
+
+}
+
+.logo {
+    flex-basis: 50%;
+    text-align: center;
+
+}
+
+.search input {
+
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    color: #8c92a0;
+    transition: 0.5s;
+
+}
+
+.search input:focus {
+    outline: none;
+    padding-left: 0px;
+    transition: 0.5s;
+}
+
+.logo a {
+    color: #25262A;
+    border: 2px solid #25262a;
+    cursor: pointer;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+/* .logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--var-color);
+
+} */
+
+.icons {
+    flex-basis: 20%;
+    padding: 0px 10px;
+
+    text-align: right !important;
+
+
+}
+
+.icons ul li {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 15px;
+
+}
+
+.icons a {
+    color: #8c92a0;
+    cursor: pointer;
+}
+
+.icons a:hover {
+    color: #000;
+}
+
+.icons .site-cart {
+    position: relative;
+    display: block;
+    color: #8c92a0;
+
+
+}
+
+.icons .site-cart:hover {
+    color: #000;
+    padding-top: 5px;
+
+}
+
+.icons .count {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin-top: -22px;
+    margin-right: -18px;
+    height: 23px;
+    width: 23px;
+    line-height: 23px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+    background: #7971EA;
+    color: #fff;
+    transition: .2s all ease-in-out;
+
+
+}
