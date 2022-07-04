@@ -27,6 +27,9 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+        top header section css start
+  *************************************/
 .header {
     width: 100%;
 
@@ -152,3 +155,92 @@ body {
 
 
 }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+            manubar section css start
+  *************************************/
+.manubar {
+    width: 100%;
+
+
+}
+
+
+
+.manu-content {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 0px 40px;
+}
+
+.manubar ul li {
+    display: inline-block;
+    padding: 20px 5px;
+    position: relative;
+
+
+}
+
+.manubar ul li a {
+    color: #25262A;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all 0.3s;
+
+
+}
+
+.manubar ul li a:hover {
+    color: #7971EA;
+}
+
+.manu-content .list-item:active {
+    color: #7971EA;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.manubar ul li:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    background-color: rgb(192, 146, 146);
+}
+
+.manubar ul li:hover.dropdown-content ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.manubar ul li:hover .dropdown-content ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 5px;
+
+}
+
+.dropdown-content-1 {
+    display: none;
+}
+
+.dropdown-content ul li:hover .dropdown-content-1 {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    background-color: rgb(170, 115, 115)
+}
+
+/* banner section css start */
