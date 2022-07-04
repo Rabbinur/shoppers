@@ -210,7 +210,7 @@ body {
     left: 0;
     top: 100%;
 
-    background-color: rgb(192, 146, 146);
+    background-color: #ffffff
 }
 
 .manubar ul li:hover.dropdown-content ul {
@@ -240,7 +240,11 @@ body {
     position: absolute;
     top: 0px;
     left: 150px;
-    background-color: rgb(170, 115, 115)
+    background-color: #fff;
+}
+
+.dropdown-content-1:hover {
+    background-color: #8c92a0;
 }
 
 /* banner section css start */
